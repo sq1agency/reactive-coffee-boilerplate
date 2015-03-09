@@ -8,12 +8,12 @@ Index = React.createClass {
   ]
   render: ->
     styles =
-      backgroundColor: "#DDD"
-      color: "#555"
+      backgroundColor: "red"
+      color: "#FFF"
 
     (
       <div style={@buildStyles styles}>
-        <p>Test.</p>
+        <p>React stuff.</p>
       </div>
     )
 }

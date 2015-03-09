@@ -1,7 +1,7 @@
 {
   "name": "reactive-coffee",
   "version": "0.0.1",
-  "description": "",
+  "description": "An isomorphic ReactJS boilerplate that includes webpack hot loading, Coffeescript support, and a built-in Flux architecture.",
   "main": "server.coffee",
   "scripts": {
     "start": "NODE_ENV=production ./node_modules/.bin/coffee --harmony server.coffee",
@@ -9,8 +9,8 @@
     "deploy": "NODE_ENV=production webpack -p --progress --colors --config ./configs/webpack/webpack.config.coffee",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mike Mclaren",
+  "license": "MIT",
   "devDependencies": {
     "cjsx-loader": "^1.3.0",
     "coffee-loader": "^0.7.2",
